@@ -30,9 +30,11 @@ package com.ramesh.ood.concepts.loosecoupling;
 public class LooseCoupling {
 
 	public static void main(String[] args) {
+		
 		// Example of tight coupling - To change journey from Car to Bike, it requires changes in BadTraveler class
 		BadTraveler bt = new BadTraveler();
 		bt.startJourney();
+		
 		// Example of loose coupling - To change journey from Car to Bike, it is possible without changing GoodTraveler class
 		GoodTraveler gt = new GoodTraveler();
 		gt.setV(new Car()); // Inject Car dependency

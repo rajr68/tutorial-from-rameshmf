@@ -37,6 +37,7 @@ package com.ramesh.ood.concepts.polymorphism;
 public class Polymorphism {
 
 	public static void main(String[] args) {
+		
 		// Here the runtime polymorphism fundamental is not applied, as it is of single CashPayment form
 		CashPayment c = new CashPayment();
 		c.pay();

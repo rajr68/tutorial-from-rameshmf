@@ -22,6 +22,7 @@ package com.ramesh.ood.concepts.delegation;
 public class Delegation {
 
 	public static void main(String[] args) {
+		
 		// Here TicketBookingByAgent class is internally delegating train ticket booking responsibility to other class
 		TicketBookingByAgent agent = new TicketBookingByAgent(new TrainBooking());
 		agent.bookTicket();
@@ -29,6 +30,7 @@ public class Delegation {
 		// Here TicketBookingByAgent class is internally delegating airline ticket booking responsibility to other class
 		agent = new TicketBookingByAgent(new AirBooking());
 		agent.bookTicket();
+		
 	}
 }
 

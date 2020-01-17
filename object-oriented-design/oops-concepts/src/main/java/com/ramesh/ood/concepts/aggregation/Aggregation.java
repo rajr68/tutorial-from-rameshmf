@@ -8,7 +8,9 @@ import java.util.List;
 // If a line item is deleted, then corresponding product needs not to be deleted.
 
 public class Aggregation {
+	
 	public static void main(String[] args) {
+		
 		// Create Products
 		Product p1 = new Product(1, "Pen", "This is red pen");
 		Product p2 = new Product(2, "Pencil", "This is pencil");
@@ -27,6 +29,7 @@ public class Aggregation {
 
 		// Still product exist and not deleted
 		System.out.println(p1);
+		
 	}
 }
 
