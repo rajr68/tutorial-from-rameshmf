@@ -58,5 +58,6 @@ public class SpringbootAsyncApplication implements CommandLineRunner {
 		logger.info("--> " + page2.get());
 		logger.info("--> " + page3.get());
 		logger.info("--> " + page4.get());
+		
 	}
 }
